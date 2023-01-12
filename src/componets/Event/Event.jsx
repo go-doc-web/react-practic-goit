@@ -7,19 +7,19 @@ export const Event = ({ name, location, speaker, type, start, end }) => {
       <h2 className={css.title}>{name}</h2>
       <p className={css.info}>
         <i className={css.icon}></i>
-        Location
+        {location}
       </p>
       <p className={css.info}>
         <i className={css.icon}></i>
-        Speaker
+        {speaker}
       </p>
       <p className={css.info}>
         <i className={css.icon}></i>
-        Start Date
+        {start}
       </p>
       <p className={css.info}>
         <i className={css.icon}></i>
-        Duration
+        {end}
       </p>
       {/* <span className={css.chip} free|paid|vip">Event type</span> */}
     </div>
