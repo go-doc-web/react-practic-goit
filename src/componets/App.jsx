@@ -3,9 +3,11 @@ import { EventBoard } from "./EventBoard/EventBoard";
 import upEvents from "./upcoming-events.json";
 import Counter from "./counter/Counter";
 
+
 export const App = () => {
   return (
     <>
+     
       <PageTitle title="24th Core Worlds Coalition Conference" />;
       <EventBoard events={upEvents} />
       {/* <Counter value={0} /> */}
